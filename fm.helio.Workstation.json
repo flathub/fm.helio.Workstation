@@ -3,7 +3,7 @@
     "runtime": "org.freedesktop.Platform",
     "sdk": "org.freedesktop.Sdk",
     "runtime-version": "23.08",
-    "command": "helio",
+    "command": "/app/bin/helio",
     "rename-icon": "helio-workstation",
     "rename-desktop-file": "Helio.desktop",
     "finish-args": [
@@ -37,7 +37,7 @@
                 "install -Dm755 Projects/LinuxMakefile/build/helio -t ${FLATPAK_DEST}/bin",
                 "install -Dm644 Projects/Deployment/Linux/fm.helio.Workstation.metainfo.xml -t ${FLATPAK_DEST}/share/metainfo",
                 "install -Dm644 Projects/Deployment/Linux/Debian/x64/usr/share/applications/Helio.desktop -t ${FLATPAK_DEST}/share/applications",
-                "desktop-file-edit --set-key=Exec --set-value=helio ${FLATPAK_DEST}/share/applications/Helio.desktop",
+                "desktop-file-edit --set-key=Exec --set-value=/app/bin/helio ${FLATPAK_DEST}/share/applications/Helio.desktop",
                 "cp -a Projects/Deployment/Linux/Debian/x64/usr/share/icons ${FLATPAK_DEST}/share/",
                 "install -d /app/extensions/Plugins"
             ],
