@@ -56,6 +56,7 @@
                     "type": "patch",
                     "paths": [
                         "patches/helio-build.patch",
+                        "patches/helio-appdata.patch",
                         "patches/juce-vst3-path.patch"
                     ]
                 }
