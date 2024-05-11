@@ -1,0 +1,13 @@
+diff --git a/Projects/Deployment/Linux/fm.helio.Workstation.metainfo.xml b/Projects/Deployment/Linux/fm.helio.Workstation.metainfo.xml
+index 7db8aa9..0201206 100644
+--- a/Projects/Deployment/Linux/fm.helio.Workstation.metainfo.xml
++++ b/Projects/Deployment/Linux/fm.helio.Workstation.metainfo.xml
+@@ -5,6 +5,8 @@
+   <project_license>GPL-3.0</project_license>
+   <name>Helio</name>
+   <summary>Helio Project libre music composition software</summary>
++  <developer_name>Helio Developers</developer_name>
++  <launchable type="desktop-id">Helio.desktop</launchable>
+   <description>
+     <p>
+       Helio is an attempt to rethink a music sequencer to create a
