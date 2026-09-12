@@ -46,8 +46,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/helio-fm/helio-workstation/",
-                    "tag": "3.17",
-                    "commit": "644c541633756b1d4c3bc64b448bb853893f07dc",
+                    "tag": "3.18",
+                    "commit": "3fd7a39bd60282003ffaed900eb648ac3fcdb710",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
