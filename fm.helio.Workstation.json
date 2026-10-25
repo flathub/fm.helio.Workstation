@@ -2,7 +2,7 @@
     "id": "fm.helio.Workstation",
     "runtime": "org.freedesktop.Platform",
     "sdk": "org.freedesktop.Sdk",
-    "runtime-version": "25.08",
+    "runtime-version": "26.08",
     "command": "helio",
     "rename-icon": "helio-workstation",
     "rename-desktop-file": "Helio.desktop",
@@ -10,8 +10,8 @@
         "--share=ipc",
         "--socket=x11",
         "--socket=pulseaudio",
-        "--device=all",
-        "--filesystem=xdg-run/pipewire-0",
+        "--device=dri",
+        "--filesystem=xdg-run/pipewire-0:ro",
         "--filesystem=home",
         "--env=VST_PATH=/app/extensions/Plugins/vst",
         "--env=VST3_PATH=/app/extensions/Plugins/vst3"
@@ -19,7 +19,7 @@
     "add-extensions": {
         "org.freedesktop.LinuxAudio.Plugins": {
             "directory": "extensions/Plugins",
-            "version": "25.08",
+            "version": "26.08",
             "add-ld-path": "lib",
             "merge-dirs": "vst;vst3",
             "subdirectories": true,
